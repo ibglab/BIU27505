@@ -1,4 +1,5 @@
 .ipynb_checkpoints/
+.DS_Store
 senv/
 sdaenv/
 .idea/vcs.xml
