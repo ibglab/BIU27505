@@ -7,9 +7,11 @@ Contact info: izhar.bar-gad at biu.ac.il
 Established: 2020
 
 ## Note 
-For running widgts under jupyter lab, after installing the required packages run:  
+Running locally requires Python 3.12 or newer:  
   
-jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-matplotlib
+pip install -r requirements.txt  
+  
+The widget extensions for jupyter lab (ipywidgets, ipympl) are installed automatically by pip; no separate `jupyter labextension install` step is needed.
 
 =======
 
